@@ -14,8 +14,10 @@ HighPulse::~HighPulse()
 
 void HighPulse::inputY()
 {
-   for(auto i = 0; i < 1/static_cast<double>(f0); i+=(1/fs))
+
+   for(auto i = 0.0; i < 1.0/static_cast<double>(f0); i+=(1.0/fs))
    {
+
       y.push_back(1);//1•bŠÔƒTƒ“ƒvƒŠƒ“ƒOü”g”‚¸‚Â’Ç‰Á
    }
 }

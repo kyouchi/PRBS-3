@@ -12,7 +12,7 @@ protected:
 
 
    void initialize();//コンテナの初期化
-   virtual void inputY() = 0;//各波形ごとのy軸への代入
+   virtual void inputY(){};//各波形ごとのy軸への代入
 public:
    Waveform();
    virtual ~Waveform();

@@ -5,6 +5,7 @@ class HighPulse :
 {
 public:
    HighPulse();
+   explicit HighPulse(const Waveform &obj) : Waveform(obj){};//CopyConstructor
    ~HighPulse();
    void inputY() override;
 };

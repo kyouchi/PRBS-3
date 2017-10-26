@@ -5,6 +5,7 @@ class LowPulse :
 {
 public:
    LowPulse();
+   explicit LowPulse(const Waveform &obj) : Waveform(obj){};//CopyConstructor
    ~LowPulse();
    void inputY() override;
 };
