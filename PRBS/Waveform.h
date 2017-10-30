@@ -7,6 +7,7 @@ class Waveform
 protected:
    const unsigned int fs = 24000;//サンプリング周波数[Hz]
    const unsigned int f0 = 500;//パイロット信号の周波数[Hz]
+   const double pi = 3.141592653589793;
    std::vector<double> t;//x軸(t[s])のplotコンテナ
    std::vector<double> y;//y軸(Amplitude)のplotコンテナ
 

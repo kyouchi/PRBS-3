@@ -1,4 +1,4 @@
-#include "stdafx.h"
+ï»¿#include "stdafx.h"
 #include "LowPulse.h"
 
 
@@ -14,8 +14,8 @@ LowPulse::~LowPulse()
 
 void LowPulse::inputY()
 {
-   for(auto i = 0; i < 1/static_cast<double>(f0); i+=(1/fs))
+   for(auto i = 0.0; i < 1.0/static_cast<double>(f0); i+=(1.0/fs))
    {
-      y.push_back(-1);//1•bŠÔƒTƒ“ƒvƒŠƒ“ƒOü”g”‚¸‚Â’Ç‰Á
+      y.push_back(-1);//1ç§’é–“ã‚µãƒ³ãƒ—ãƒªãƒ³ã‚°å‘¨æ³¢æ•°ãšã¤è¿½åŠ 
    }
 }

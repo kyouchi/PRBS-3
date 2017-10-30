@@ -144,6 +144,8 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClInclude Include="HighPulse.h" />
+    <ClInclude Include="ReverseSinWave.h" />
+    <ClInclude Include="TrueSinWave.h" />
     <ClInclude Include="LowPulse.h" />
     <ClInclude Include="plot.h" />
     <ClInclude Include="stdafx.h" />
@@ -152,6 +154,8 @@
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="HighPulse.cpp" />
+    <ClCompile Include="ReverseSinWave.cpp" />
+    <ClCompile Include="TrueSinWave.cpp" />
     <ClCompile Include="LowPulse.cpp" />
     <ClCompile Include="plot.cpp" />
     <ClCompile Include="PRBS.cpp" />

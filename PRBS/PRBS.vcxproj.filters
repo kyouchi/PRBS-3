@@ -33,6 +33,12 @@
     <ClInclude Include="plot.h">
       <Filter>ヘッダー ファイル</Filter>
     </ClInclude>
+    <ClInclude Include="TrueSinWave.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="ReverseSinWave.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="stdafx.cpp">
@@ -51,6 +57,12 @@
       <Filter>ソース ファイル</Filter>
     </ClCompile>
     <ClCompile Include="plot.cpp">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="TrueSinWave.cpp">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="ReverseSinWave.cpp">
       <Filter>ソース ファイル</Filter>
     </ClCompile>
   </ItemGroup>
